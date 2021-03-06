@@ -17,7 +17,7 @@ class GreetingResource {
     fun hello() = "Hello RESTEasy"
 
     @GET
-    @Path("get-file/{fileName}")
+    @Path("/get-file/{fileName}")
     @Produces(MediaType.APPLICATION_OCTET_STREAM)
     fun test(@PathParam("fileName") fileName: String): Uni<Response> {
         val file = File(fileName)
