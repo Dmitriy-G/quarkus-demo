@@ -1,1 +1,1 @@
-web: java -jar target/*-runner.jar
+web: java $JAVA_OPTS -jar target/*-runner.jar
