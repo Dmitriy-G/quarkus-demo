@@ -6,7 +6,6 @@ pom.xml.versionsBackup
 release.properties
 mvnw
 mvnw.cmd
-quarkus-demo.iml
 
 # Eclipse
 .project
